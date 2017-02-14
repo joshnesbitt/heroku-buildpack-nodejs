@@ -19,6 +19,8 @@ git config --global url."https://github.com/".insteadOf git://github.com/
 git config --global url."https://github.com/".insteadOf ssh://git@github.com/
 git config --global url."https://github.com/".insteadOf git@github.com:
 
+git config --list
+
 ### Configure directories
 
 BUILD_DIR=${1:-}
